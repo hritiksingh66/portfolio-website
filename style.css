@@ -151,8 +151,8 @@ body.dark-mode .contact-form textarea::placeholder {
     color: white;
     padding: 10px 25px; 
     border-radius: 25px;
-    font-weight: 600; */
-    transform: translateY(-2px);
+    font-weight: 600; 
+    transform : translateY(-2px);
     box-shadow: 0 8px 20px rgba(139, 92, 246, 0.3);
     color: white;
 }
@@ -207,7 +207,8 @@ body.dark-mode .contact-form textarea::placeholder {
 }
 
 .hero-content h1 span {
-    color: #fbbf24;
+    color: #1e293b;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 .hero-content h2 {
@@ -239,12 +240,12 @@ body.dark-mode .contact-form textarea::placeholder {
 }
 
 .btn.primary {
-    background: #fbbf24;
-    color: #333;
+    background: linear-gradient(135deg, #8b5cf6, #ec4899);
+    color: white;
 }
 
 .btn.primary:hover {
-    background: #f59e0b;
+    background: linear-gradient(135deg, #7c3aed, #db2777);
     transform: translateY(-2px);
 }
 
